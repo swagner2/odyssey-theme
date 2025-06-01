@@ -1,5 +1,4 @@
 ---
-import { Fragment } from 'astro';
 import { Icon } from 'astro-icon/components';
 import {
 	AnnouncementBar,
@@ -32,9 +31,9 @@ const seo = {
 		</div>
 		<div slot="btns-container">
 			<Button href="/theme/get-started" customIcon
-				>Get Started <Fragment slot="icon">
+				>Get Started <span slot="icon">
 					<Icon name="ic:baseline-chevron-right" />
-				</Fragment></Button
+				</span></Button
 			>
 		</div>
 		<picture slot="image-container">
@@ -131,9 +130,9 @@ const seo = {
 			business or startup.
 		</p>
 		<Button href="/theme/get-started" customIcon
-			>Get Started <Fragment slot="icon">
+			>Get Started <span slot="icon">
 				<Icon name="ic:baseline-chevron-right" />
-			</Fragment></Button
+			</span></Button
 		>
 	</CtaCardSection>
 </Layout>
